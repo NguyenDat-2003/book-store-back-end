@@ -3,6 +3,6 @@ import { userController } from '~/controllers/userController'
 
 const router = express.Router()
 
-router.post('/signup', userController.createUser)
+router.get('/signup', userController.createUser)
 
 export const userRoute = router
