@@ -1,10 +1,14 @@
-const { StatusCodes } = require('http-status-codes')
-
-const createNew = async (reqBody) => {
+const createNew = async () => {
   try {
-    console.log(reqBody)
+    // const books = await db.Cart.findOne({
+    //   where: {
+    //     id: 1
+    //   },
+    //   include: { model: db.User },
+    //   raw: true,
+    //   nest: true
+    // })
     // const newUser = await userService.createNew(req.body)
-    // return res.status(StatusCodes.CREATED).json(req)
   } catch (error) {
     throw error
   }
